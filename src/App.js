@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route } from "react-router-dom";
+import { Route, Link } from "react-router-dom";
 
 import HomePage from './pages/homepage/homepage.component';
 
@@ -7,6 +7,7 @@ import './App.css';
 const Detail = () => {
   return (
     <div>
+      <Link to='/'>Home</Link>
       <h1>Detail</h1>
     </div>
   )
