@@ -16,8 +16,6 @@ export class Shop extends Component {
         const { collections } = this.state;
         return (
             <div>
-                <h2>Shop Page</h2>
-                <Link to='/'>Home</Link>
                 {collections.map(({ id, ...collectionsProps }) => (
                     <CollectionPreview key={id} {...collectionsProps} />
                 ))}
