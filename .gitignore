@@ -22,7 +22,10 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+<<<<<<< HEAD
 # package
 /dist
 # compiled css
 *.css
+=======
+>>>>>>> 464331cb6cefe471c2312899b3d4a0eb3ca17f7f
